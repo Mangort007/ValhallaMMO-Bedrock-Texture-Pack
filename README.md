@@ -4,15 +4,15 @@ The texture pack is now available for bedrock players of this immersive MMO-insp
 
 The texture pack is made up of the following components:
 
-All the textures of the plugin's item icons
-All new weapons plugin with 3D textures
-Animated textures for crafting materials (such as unstable diamond, etc.)
-All weapons and items in the texture pack are compatible with the secondary hand in bedrock!
+- All the textures of the plugin's item icons
+- All new weapons plugin with 3D textures
+- Animated textures for crafting materials (such as unstable diamond, etc.)
+- All weapons and items in the texture pack are compatible with the secondary hand in bedrock!
 
 Things I may add in the future (I don't promise anything!):
 
-Customized java texture pack interface for the skills, crafting and amulets menus.
-Add some particles from the plugin to the bedrock texture pack
+- Customized java texture pack interface for the skills, crafting and amulets menus
+- Add some particles from the plugin to the bedrock texture pack
 
 # How can I install the texture pack?
 
