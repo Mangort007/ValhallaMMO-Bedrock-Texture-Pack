@@ -1,4 +1,4 @@
-# ValhallaMMO-Bedorck-Texture-Pack
+# ValhallaMMO-Bedrock-Texture-Pack
 
 The texture pack is now available for bedrock players of this immersive MMO-inspired plugin, where you can craft new weapons such as a dagger or a spear, use a wide range of amulets and craft tools within its special crafting system!
 
