@@ -1,0 +1,192 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.hot_iron_ingot",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 1,
+				"visible_bounds_height": 1,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "hot_iron_ingot",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "hot_iron_ingot",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.hot_iron_ingot2",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "hot_iron_ingot",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "hot_iron_ingot2",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.hot_iron_ingot3",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "hot_iron_ingot",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "hot_iron_ingot3",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.hot_iron_ingot4",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "hot_iron_ingot",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "hot_iron_ingot4",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.hot_iron_ingot5",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "hot_iron_ingot",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "hot_iron_ingot5",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.hot_iron_ingot6",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "hot_iron_ingot",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "hot_iron_ingot6",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.hot_iron_ingot7",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "hot_iron_ingot",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "hot_iron_ingot7",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.hot_iron_ingot8",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "hot_iron_ingot",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "hot_iron_ingot8",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		}
+	]
+}

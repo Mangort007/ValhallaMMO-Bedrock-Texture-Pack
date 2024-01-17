@@ -1,0 +1,74 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+        "controller.render.unstable_diamond": {
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "variable.animated_item = query.life_time * 5.0; return array.animated_model_item[variable.animated_item];",
+			"textures": [
+				"variable.animated_item = query.life_time * 5.0; return array.animated_texture_item[variable.animated_item];"
+			],
+			"arrays": {
+				"textures": {
+					"array.animated_texture_item": [
+						"texture.unstable_diamond",
+                        "texture.unstable_diamond2",
+                        "texture.unstable_diamond3",
+                        "texture.unstable_diamond4",
+                        "texture.unstable_diamond5",
+                        "texture.unstable_diamond6",
+                        "texture.unstable_diamond7",
+                        "texture.unstable_diamond8",
+                        "texture.unstable_diamond9",
+                        "texture.unstable_diamond10",
+                        "texture.unstable_diamond11",
+                        "texture.unstable_diamond12",
+                        "texture.unstable_diamond13",
+                        "texture.unstable_diamond14",
+                        "texture.unstable_diamond15",
+                        "texture.unstable_diamond16",
+                        "texture.unstable_diamond17",
+                        "texture.unstable_diamond18",
+                        "texture.unstable_diamond19",
+                        "texture.unstable_diamond20",
+                        "texture.unstable_diamond21",
+                        "texture.unstable_diamond22",
+                        "texture.unstable_diamond23",
+                        "texture.unstable_diamond24"
+					]
+				},
+				"geometries": {
+					"array.animated_model_item": [
+						"geometry.unstable_diamond",
+                        "geometry.unstable_diamond2",
+                        "geometry.unstable_diamond3",
+                        "geometry.unstable_diamond4",
+                        "geometry.unstable_diamond5",
+                        "geometry.unstable_diamond6",
+                        "geometry.unstable_diamond7",
+                        "geometry.unstable_diamond8",
+                        "geometry.unstable_diamond9",
+                        "geometry.unstable_diamond10",
+                        "geometry.unstable_diamond11",
+                        "geometry.unstable_diamond12",
+                        "geometry.unstable_diamond13",
+                        "geometry.unstable_diamond14",
+                        "geometry.unstable_diamond15",
+                        "geometry.unstable_diamond16",
+                        "geometry.unstable_diamond17",
+                        "geometry.unstable_diamond18",
+                        "geometry.unstable_diamond19",
+                        "geometry.unstable_diamond20",
+                        "geometry.unstable_diamond21",
+                        "geometry.unstable_diamond22",
+                        "geometry.unstable_diamond23",
+                        "geometry.unstable_diamond24"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,696 @@
+{
+  "resource_pack_name": "geyser_custom",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "gmdl_355ba37": {
+      "textures": "textures/minecraft/item/gui/skilltree_n"
+    },
+    "gmdl_abc743f": {
+      "textures": "textures/minecraft/item/gui/skillicon_power"
+    },
+    "gmdl_d588979": {
+      "textures": "textures/minecraft/item/gui/skilltree_nw"
+    },
+    "gmdl_3b81727": {
+      "textures": "textures/minecraft/item/gui/skilltree_ne"
+    },
+    "gmdl_cf6f9a5": {
+      "textures": "textures/minecraft/item/gui/skilltree_e"
+    },
+    "gmdl_85f0b2e": {
+      "textures": "textures/minecraft/item/gui/skilltree_se"
+    },
+    "gmdl_789d42e": {
+      "textures": "textures/minecraft/item/gui/skilltree_s"
+    },
+    "gmdl_50f7a43": {
+      "textures": "textures/minecraft/item/gui/skilltree_sw"
+    },
+    "gmdl_eb2cee3": {
+      "textures": "textures/minecraft/item/gui/skilltree_w"
+    },
+    "gmdl_ee323ae": {
+      "textures": "textures/minecraft/item/arrows/arrow_wood"
+    },
+    "gmdl_52f1249": {
+      "textures": "textures/minecraft/item/arrows/arrow_flint"
+    },
+    "gmdl_67f8b4c": {
+      "textures": "textures/minecraft/item/arrows/arrow_stone"
+    },
+    "gmdl_14aafb2": {
+      "textures": "textures/minecraft/item/arrows/arrow_copper"
+    },
+    "gmdl_960ac24": {
+      "textures": "textures/minecraft/item/arrows/arrow_gold"
+    },
+    "gmdl_e3ba736": {
+      "textures": "textures/minecraft/item/arrows/arrow_iron"
+    },
+    "gmdl_d2b7167": {
+      "textures": "textures/minecraft/item/arrows/arrow_carbon"
+    },
+    "gmdl_681d6c2": {
+      "textures": "textures/minecraft/item/arrows/arrow_diamond"
+    },
+    "gmdl_415e610": {
+      "textures": "textures/minecraft/item/arrows/arrow_ender"
+    },
+    "gmdl_ee7f36d": {
+      "textures": "textures/minecraft/item/arrows/arrow_incendiary"
+    },
+    "gmdl_46a92e9": {
+      "textures": "textures/minecraft/item/arrows/arrow_netherite"
+    },
+    "gmdl_82a74ee": {
+      "textures": "textures/minecraft/item/arrows/arrow_explosive"
+    },
+    "gmdl_a0a45e4": {
+      "textures": "textures/minecraft/item/arrows/arrow_unholy"
+    },
+    "gmdl_a09246e": {
+      "textures": "textures/minecraft/item/arrows/arrow_lightning"
+    },
+    "gmdl_d686b7b": {
+      "textures": "textures/minecraft/item/gui/skillicon_archery"
+    },
+    "gmdl_c437d85": {
+      "textures": "textures/minecraft/item/materials/ring_mold"
+    },
+    "gmdl_919075a": {
+      "textures": "textures/minecraft/item/materials/necklace_amulet_mold"
+    },
+    "gmdl_d6cc487": {
+      "textures": "textures/minecraft/item/materials/leather_strip"
+    },
+    "gmdl_6800216": {
+      "textures": "textures/minecraft/item/materials/unstable_diamond"
+    },
+    "gmdl_a5fa37e": {
+      "textures": "textures/minecraft/item/trinkets/rough_gold_ring"
+    },
+    "gmdl_7e8424e": {
+      "textures": "textures/minecraft/item/trinkets/rough_gold_circlet"
+    },
+    "gmdl_8925b2e": {
+      "textures": "textures/minecraft/item/trinkets/rough_gold_necklace_amulet"
+    },
+    "gmdl_ca853f6": {
+      "textures": "textures/minecraft/item/trinkets/rough_gold_bracer"
+    },
+    "gmdl_d79b935": {
+      "textures": "textures/minecraft/item/trinkets/gold_necklace_amulet"
+    },
+    "gmdl_3fc79e9": {
+      "textures": "textures/minecraft/item/trinkets/emerald_gold_ring"
+    },
+    "gmdl_13fdc66": {
+      "textures": "textures/minecraft/item/trinkets/gold_ring"
+    },
+    "gmdl_5ec8f49": {
+      "textures": "textures/minecraft/item/trinkets/opal_gold_ring"
+    },
+    "gmdl_2b80852": {
+      "textures": "textures/minecraft/item/trinkets/ruby_gold_ring"
+    },
+    "gmdl_20c88d4": {
+      "textures": "textures/minecraft/item/trinkets/topaz_gold_ring"
+    },
+    "gmdl_6c2b4d4": {
+      "textures": "textures/minecraft/item/trinkets/sapphire_gold_ring"
+    },
+    "gmdl_991f719": {
+      "textures": "textures/minecraft/item/trinkets/diamond_gold_ring"
+    },
+    "gmdl_a0e0146": {
+      "textures": "textures/minecraft/item/trinkets/peridot_gold_ring"
+    },
+    "gmdl_5d59381": {
+      "textures": "textures/minecraft/item/trinkets/amethyst_gold_ring"
+    },
+    "gmdl_29c0849": {
+      "textures": "textures/minecraft/item/trinkets/gold_necklace"
+    },
+    "gmdl_a7c3618": {
+      "textures": "textures/minecraft/item/trinkets/ruby_gold_necklace"
+    },
+    "gmdl_1b6e902": {
+      "textures": "textures/minecraft/item/trinkets/emerald_gold_necklace"
+    },
+    "gmdl_d628b8a": {
+      "textures": "textures/minecraft/item/trinkets/opal_gold_necklace"
+    },
+    "gmdl_6017e25": {
+      "textures": "textures/minecraft/item/trinkets/sapphire_gold_necklace"
+    },
+    "gmdl_845c07f": {
+      "textures": "textures/minecraft/item/trinkets/topaz_gold_necklace"
+    },
+    "gmdl_7e98e54": {
+      "textures": "textures/minecraft/item/trinkets/peridot_gold_necklace"
+    },
+    "gmdl_6c8e118": {
+      "textures": "textures/minecraft/item/trinkets/diamond_gold_necklace"
+    },
+    "gmdl_2af0406": {
+      "textures": "textures/minecraft/item/trinkets/amethyst_gold_necklace"
+    },
+    "gmdl_99e4293": {
+      "textures": "textures/minecraft/item/trinkets/gold_bracer"
+    },
+    "gmdl_5163ec5": {
+      "textures": "textures/minecraft/item/trinkets/ruby_gold_bracer"
+    },
+    "gmdl_9053bd4": {
+      "textures": "textures/minecraft/item/trinkets/emerald_gold_bracer"
+    },
+    "gmdl_9bc20e2": {
+      "textures": "textures/minecraft/item/trinkets/opal_gold_bracer"
+    },
+    "gmdl_77e4b3d": {
+      "textures": "textures/minecraft/item/trinkets/topaz_gold_bracer"
+    },
+    "gmdl_756abcf": {
+      "textures": "textures/minecraft/item/trinkets/sapphire_gold_bracer"
+    },
+    "gmdl_3db3afb": {
+      "textures": "textures/minecraft/item/trinkets/peridot_gold_bracer"
+    },
+    "gmdl_dcac025": {
+      "textures": "textures/minecraft/item/trinkets/diamond_gold_bracer"
+    },
+    "gmdl_ed039e9": {
+      "textures": "textures/minecraft/item/trinkets/amethyst_gold_bracer"
+    },
+    "gmdl_afb9d0b": {
+      "textures": "textures/minecraft/item/trinkets/gold_armring"
+    },
+    "gmdl_3667577": {
+      "textures": "textures/minecraft/item/trinkets/silver_armring"
+    },
+    "gmdl_4802a88": {
+      "textures": "textures/minecraft/item/trinkets/gold_circlet"
+    },
+    "gmdl_943ecf6": {
+      "textures": "textures/minecraft/item/trinkets/ruby_gold_circlet"
+    },
+    "gmdl_9b877d4": {
+      "textures": "textures/minecraft/item/trinkets/emerald_gold_circlet"
+    },
+    "gmdl_0a327fc": {
+      "textures": "textures/minecraft/item/trinkets/opal_gold_circlet"
+    },
+    "gmdl_8c91fe3": {
+      "textures": "textures/minecraft/item/trinkets/peridot_gold_circlet"
+    },
+    "gmdl_9f555f4": {
+      "textures": "textures/minecraft/item/trinkets/topaz_gold_circlet"
+    },
+    "gmdl_5e19cae": {
+      "textures": "textures/minecraft/item/trinkets/sapphire_gold_circlet"
+    },
+    "gmdl_3837542": {
+      "textures": "textures/minecraft/item/trinkets/diamond_gold_circlet"
+    },
+    "gmdl_aabb68f": {
+      "textures": "textures/minecraft/item/trinkets/amethyst_gold_circlet"
+    },
+    "gmdl_9b10560": {
+      "textures": "textures/minecraft/item/trinkets/trinket_armband_purity"
+    },
+    "gmdl_4b4a0ef": {
+      "textures": "textures/minecraft/item/trinkets/trinket_armband_bezoar"
+    },
+    "gmdl_a1fdac4": {
+      "textures": "textures/minecraft/item/trinkets/trinket_armband_force"
+    },
+    "gmdl_3db41f0": {
+      "textures": "textures/minecraft/item/trinkets/trinket_armband_titans_glove"
+    },
+    "gmdl_241c8a1": {
+      "textures": "textures/minecraft/item/trinkets/trinket_armband_deathbringer"
+    },
+    "gmdl_81ebecd": {
+      "textures": "textures/minecraft/item/trinkets/trinket_armband_precision"
+    },
+    "gmdl_07414ef": {
+      "textures": "textures/minecraft/item/trinkets/trinket_armband_rebirth"
+    },
+    "gmdl_982591e": {
+      "textures": "textures/minecraft/item/trinkets/trinket_armband_regeneration"
+    },
+    "gmdl_aa79ef7": {
+      "textures": "textures/minecraft/item/trinkets/trinket_armband_bandaid"
+    },
+    "gmdl_2b8ed25": {
+      "textures": "textures/minecraft/item/trinkets/trinket_armband_transfusion"
+    },
+    "gmdl_bc70da2": {
+      "textures": "textures/minecraft/item/trinkets/trinket_armband_armored_bracer"
+    },
+    "gmdl_45ab5e8": {
+      "textures": "textures/minecraft/item/trinkets/trinket_armband_juggernaut"
+    },
+    "gmdl_a8ef484": {
+      "textures": "textures/minecraft/item/trinkets/trinket_necklace_divine_blessing"
+    },
+    "gmdl_974422c": {
+      "textures": "textures/minecraft/item/trinkets/trinket_necklace_cross"
+    },
+    "gmdl_bde37f6": {
+      "textures": "textures/minecraft/item/trinkets/trinket_necklace_artemis"
+    },
+    "gmdl_8c088a2": {
+      "textures": "textures/minecraft/item/trinkets/trinket_necklace_magic_quiver"
+    },
+    "gmdl_bb3940b": {
+      "textures": "textures/minecraft/item/trinkets/trinket_necklace_mania"
+    },
+    "gmdl_130ceb8": {
+      "textures": "textures/minecraft/item/trinkets/trinket_necklace_fury"
+    },
+    "gmdl_5083e87": {
+      "textures": "textures/minecraft/item/trinkets/trinket_necklace_kratos"
+    },
+    "gmdl_6e5591e": {
+      "textures": "textures/minecraft/item/trinkets/trinket_necklace_avenger"
+    },
+    "gmdl_1974350": {
+      "textures": "textures/minecraft/item/trinkets/trinket_necklace_adrenaline"
+    },
+    "gmdl_276cd10": {
+      "textures": "textures/minecraft/item/trinkets/trinket_necklace_hermes"
+    },
+    "gmdl_a589f4f": {
+      "textures": "textures/minecraft/item/trinkets/trinket_necklace_vigor"
+    },
+    "gmdl_e633a93": {
+      "textures": "textures/minecraft/item/trinkets/trinket_necklace_erinle"
+    },
+    "gmdl_89a2ec8": {
+      "textures": "textures/minecraft/item/trinkets/trinket_ring_athena"
+    },
+    "gmdl_dada6f4": {
+      "textures": "textures/minecraft/item/trinkets/trinket_ring_deflection"
+    },
+    "gmdl_65f5c63": {
+      "textures": "textures/minecraft/item/trinkets/trinket_ring_obsidian"
+    },
+    "gmdl_e333048": {
+      "textures": "textures/minecraft/item/trinkets/trinket_ring_narya"
+    },
+    "gmdl_dcae4fa": {
+      "textures": "textures/minecraft/item/trinkets/trinket_ring_protection"
+    },
+    "gmdl_8790680": {
+      "textures": "textures/minecraft/item/trinkets/trinket_ring_primordial"
+    },
+    "gmdl_6ca5a58": {
+      "textures": "textures/minecraft/item/trinkets/trinket_ring_reach"
+    },
+    "gmdl_07a0e47": {
+      "textures": "textures/minecraft/item/trinkets/trinket_ring_gungnir"
+    },
+    "gmdl_421b171": {
+      "textures": "textures/minecraft/item/trinkets/trinket_ring_shattering"
+    },
+    "gmdl_eaffceb": {
+      "textures": "textures/minecraft/item/trinkets/trinket_ring_paladins_bane"
+    },
+    "gmdl_83756b5": {
+      "textures": "textures/minecraft/item/trinkets/trinket_ring_warding"
+    },
+    "gmdl_8b891ac": {
+      "textures": "textures/minecraft/item/trinkets/trinket_ring_magnus"
+    },
+    "gmdl_d2e3423": {
+      "textures": "textures/minecraft/item/materials/gold_plate"
+    },
+    "gmdl_2ddac05": {
+      "textures":[ 
+        "textures/minecraft/item/materials/hot_gold_ingot",
+        "textures/minecraft/item/materials/hot_gold_ingot2",
+        "textures/minecraft/item/materials/hot_gold_ingot3",
+        "textures/minecraft/item/materials/hot_gold_ingot4",
+        "textures/minecraft/item/materials/hot_gold_ingot5",
+        "textures/minecraft/item/materials/hot_gold_ingot6",
+        "textures/minecraft/item/materials/hot_gold_ingot7",
+        "textures/minecraft/item/materials/hot_gold_ingot8"
+      ]
+    },
+    "gmdl_d757494": {
+      "textures": "textures/minecraft/item/trinkets/rough_gold_necklace_amulet"
+    },
+    "gmdl_e36b03d": {
+      "textures": "textures/minecraft/item/trinkets/rough_gold_ring"
+    },
+    "gmdl_d596f06": {
+      "textures": "textures/minecraft/item/trinkets/rough_gold_circlet"
+    },
+    "gmdl_976afcc": {
+      "textures": "textures/minecraft/item/trinkets/rough_gold_bracer"
+    },
+    "gmdl_3bb560c": {
+      "textures": "textures/minecraft/item/trinkets/gold_necklace_amulet"
+    },
+    "gmdl_98ae7db": {
+      "textures": "textures/minecraft/item/trinkets/gold_necklace_2"
+    },
+    "gmdl_d349267": {
+      "textures": "textures/minecraft/item/trinkets/gold_ring_2"
+    },
+    "gmdl_bc026d4": {
+      "textures": "textures/minecraft/item/trinkets/gold_ring"
+    },
+    "gmdl_e090781": {
+      "textures": "textures/minecraft/item/trinkets/ruby_gold_ring"
+    },
+    "gmdl_c822652": {
+      "textures": "textures/minecraft/item/trinkets/emerald_gold_ring"
+    },
+    "gmdl_2668b5a": {
+      "textures": "textures/minecraft/item/trinkets/opal_gold_ring"
+    },
+    "gmdl_7d13912": {
+      "textures": "textures/minecraft/item/trinkets/sapphire_gold_ring"
+    },
+    "gmdl_8e2eb69": {
+      "textures": "textures/minecraft/item/trinkets/topaz_gold_ring"
+    },
+    "gmdl_419348f": {
+      "textures": "textures/minecraft/item/trinkets/peridot_gold_ring"
+    },
+    "gmdl_c27f2a1": {
+      "textures": "textures/minecraft/item/trinkets/diamond_gold_ring"
+    },
+    "gmdl_683b9be": {
+      "textures": "textures/minecraft/item/trinkets/amethyst_gold_ring"
+    },
+    "gmdl_91200b4": {
+      "textures": "textures/minecraft/item/trinkets/gold_necklace"
+    },
+    "gmdl_b6ca3e4": {
+      "textures": "textures/minecraft/item/trinkets/ruby_gold_necklace"
+    },
+    "gmdl_fd4dc39": {
+      "textures": "textures/minecraft/item/trinkets/emerald_gold_necklace"
+    },
+    "gmdl_7b5cf6c": {
+      "textures": "textures/minecraft/item/trinkets/opal_gold_necklace"
+    },
+    "gmdl_56b980c": {
+      "textures": "textures/minecraft/item/trinkets/sapphire_gold_necklace"
+    },
+    "gmdl_520a51d": {
+      "textures": "textures/minecraft/item/trinkets/topaz_gold_necklace"
+    },
+    "gmdl_e285948": {
+      "textures": "textures/minecraft/item/trinkets/diamond_gold_necklace"
+    },
+    "gmdl_567775f": {
+      "textures": "textures/minecraft/item/trinkets/peridot_gold_necklace"
+    },
+    "gmdl_26192ab": {
+      "textures": "textures/minecraft/item/trinkets/amethyst_gold_necklace"
+    },
+    "gmdl_41492a7": {
+      "textures": "textures/minecraft/item/trinkets/gold_bracer"
+    },
+    "gmdl_610c9bd": {
+      "textures": "textures/minecraft/item/trinkets/ruby_gold_bracer"
+    },
+    "gmdl_838e74f": {
+      "textures": "textures/minecraft/item/trinkets/emerald_gold_bracer"
+    },
+    "gmdl_2a25215": {
+      "textures": "textures/minecraft/item/trinkets/opal_gold_bracer"
+    },
+    "gmdl_643856a": {
+      "textures": "textures/minecraft/item/trinkets/sapphire_gold_bracer"
+    },
+    "gmdl_733991a": {
+      "textures": "textures/minecraft/item/trinkets/peridot_gold_bracer"
+    },
+    "gmdl_0727e7e": {
+      "textures": "textures/minecraft/item/trinkets/topaz_gold_bracer"
+    },
+    "gmdl_7a55ff0": {
+      "textures": "textures/minecraft/item/trinkets/diamond_gold_bracer"
+    },
+    "gmdl_91ce3ca": {
+      "textures": "textures/minecraft/item/trinkets/amethyst_gold_bracer"
+    },
+    "gmdl_31c44de": {
+      "textures": "textures/minecraft/item/trinkets/gold_armring"
+    },
+    "gmdl_781bc81": {
+      "textures": "textures/minecraft/item/trinkets/silver_armring"
+    },
+    "gmdl_f7f46f9": {
+      "textures": "textures/minecraft/item/trinkets/gold_circlet"
+    },
+    "gmdl_821d4d0": {
+      "textures": "textures/minecraft/item/trinkets/ruby_gold_circlet"
+    },
+    "gmdl_ae9d0d7": {
+      "textures": "textures/minecraft/item/trinkets/opal_gold_circlet"
+    },
+    "gmdl_277e188": {
+      "textures": "textures/minecraft/item/trinkets/emerald_gold_circlet"
+    },
+    "gmdl_68cd41a": {
+      "textures": "textures/minecraft/item/trinkets/sapphire_gold_circlet"
+    },
+    "gmdl_cc26e07": {
+      "textures": "textures/minecraft/item/trinkets/topaz_gold_circlet"
+    },
+    "gmdl_5d69062": {
+      "textures": "textures/minecraft/item/trinkets/diamond_gold_circlet"
+    },
+    "gmdl_227a362": {
+      "textures": "textures/minecraft/item/trinkets/peridot_gold_circlet"
+    },
+    "gmdl_335b058": {
+      "textures": "textures/minecraft/item/trinkets/amethyst_gold_circlet"
+    },
+    "gmdl_8d6fa5f": {
+      "textures": "textures/minecraft/item/materials/gold_strip"
+    },
+    "gmdl_3acaf54": {
+      "textures": "textures/minecraft/item/materials/melted_wax"
+    },
+    "gmdl_5b07f40": {
+      "textures": "textures/minecraft/item/materials/sharpening_stone"
+    },
+    "gmdl_002f081": {
+      "textures": "textures/minecraft/item/gui/skillicon_heavyweapons"
+    },
+    "gmdl_a32ac2a": {
+      "textures": "textures/minecraft/item/gui/skillicon_heavyarmor"
+    },
+    "gmdl_47914ad": {
+      "textures": "textures/minecraft/item/gui/skillicon_landscaping"
+    },
+    "gmdl_5d25be7": {
+      "textures": "textures/minecraft/item/gui/skillicon_farming"
+    },
+    "gmdl_8ead358": {
+      "textures": "textures/minecraft/item/materials/hot_iron_ingot"
+    },
+    "gmdl_9b70017": {
+      "textures": "textures/minecraft/item/gui/skillicon_mining"
+    },
+    "gmdl_ea1d858": {
+      "textures": "textures/minecraft/item/gui/skillicon_lightarmor"
+    },
+    "gmdl_85e1eb8": {
+      "textures": "textures/minecraft/item/gui/skillicon_lightweapons"
+    },
+    "gmdl_103f5aa": {
+      "textures": "textures/minecraft/item/materials/diamond_dust"
+    },
+    "gmdl_118e8f0": {
+      "textures": "textures/minecraft/item/materials/alchemical_powder"
+    },
+    "gmdl_817703f": {
+      "textures": "textures/minecraft/item/materials/polishing_stone"
+    },
+    "gmdl_6ad5fcc": {
+      "textures": "textures/minecraft/item/materials/tutor_lotus"
+    },
+    "gmdl_b24901e": {
+      "textures": "textures/minecraft/item/materials/steelblossom"
+    },
+    "gmdl_4febc6b": {
+      "textures": "textures/minecraft/item/materials/goldroot"
+    },
+    "gmdl_7dbabdc": {
+      "textures": "textures/minecraft/item/materials/shimmerleaf"
+    },
+    "gmdl_08af250": {
+      "textures": "textures/minecraft/item/materials/pollen_stalks"
+    },
+    "gmdl_1272992": {
+      "textures": "textures/minecraft/item/materials/knightsreed"
+    },
+    "gmdl_d203744": {
+      "textures": "textures/minecraft/item/materials/burnt_bark"
+    },
+    "gmdl_31efdfd": {
+      "textures": "textures/minecraft/item/materials/ambrosial_nectar"
+    },
+    "gmdl_61dd698": {
+      "textures": "textures/minecraft/item/materials/bustling_fungus"
+    },
+    "gmdl_e53d9ff": {
+      "textures": "textures/minecraft/item/materials/calcified_seed"
+    },
+    "gmdl_c9f55e8": {
+      "textures": "textures/minecraft/item/materials/noxious_spores"
+    },
+    "gmdl_7532009": {
+      "textures": "textures/minecraft/item/materials/withered_filament"
+    },
+    "gmdl_9b1bd82": {
+      "textures": "textures/minecraft/item/materials/hot_netherite_ingot"
+    },
+    "gmdl_44d0fcf": {
+      "textures": "textures/minecraft/item/materials/polishing_compound"
+    },
+    "gmdl_643280a": {
+      "textures": "textures/minecraft/item/materials/attuned_scroll"
+    },
+    "gmdl_c92a455": {
+      "textures": "textures/minecraft/item/materials/ruby"
+    },
+    "gmdl_c11d0ab": {
+      "textures": "textures/minecraft/item/materials/raw_ruby"
+    },
+    "gmdl_2167861": {
+      "textures": "textures/minecraft/item/materials/opal"
+    },
+    "gmdl_cf4560c": {
+      "textures": "textures/minecraft/item/materials/raw_opal"
+    },
+    "gmdl_a0bb1e7": {
+      "textures": "textures/minecraft/item/materials/sapphire"
+    },
+    "gmdl_80a0480": {
+      "textures": "textures/minecraft/item/materials/raw_sapphire"
+    },
+    "gmdl_fcd45c7": {
+      "textures": "textures/minecraft/item/materials/topaz"
+    },
+    "gmdl_3832023": {
+      "textures": "textures/minecraft/item/materials/raw_topaz"
+    },
+    "gmdl_6219f9c": {
+      "textures": "textures/minecraft/item/materials/raw_peridot"
+    },
+    "gmdl_eb2a3d3": {
+      "textures": "textures/minecraft/item/materials/peridot"
+    },
+    "gmdl_2534224": {
+      "textures": "textures/minecraft/item/materials/experience_gem"
+    },
+    "gmdl_a35f68b": {
+      "textures": "textures/minecraft/item/gui/icon_ring"
+    },
+    "gmdl_cabda66": {
+      "textures": "textures/minecraft/item/gui/icon_necklace"
+    },
+    "gmdl_baf1602": {
+      "textures": "textures/minecraft/item/gui/icon_bracer"
+    },
+    "gmdl_7793348": {
+      "textures": "textures/minecraft/item/gui/icon_belt"
+    },
+    "gmdl_a60306a": {
+      "textures": "textures/minecraft/item/gui/icon_mask"
+    },
+    "gmdl_a3fedff": {
+      "textures": "textures/minecraft/item/gui/icon_pin"
+    },
+    "gmdl_466a458": {
+      "textures": "textures/minecraft/item/gui/icon_circlet"
+    },
+    "gmdl_0fc8d20": {
+      "textures": "textures/minecraft/item/weapons/wooden_mace"
+    },
+    "gmdl_f01bd2f": {
+      "textures": "textures/minecraft/item/weapons/wooden_warhammer2"
+    },
+    "gmdl_e52c9f8": {
+      "textures": "textures/minecraft/item/tools/netherite_shears"
+    },
+    "gmdl_8c419e9": {
+      "textures": "textures/minecraft/item/weapons/stone_dagger"
+    },
+    "gmdl_6aec0cb": {
+      "textures": "textures/minecraft/item/weapons/wooden_spear2"
+    },
+    "gmdl_4ca4167": {
+      "textures": "textures/minecraft/item/weapons/stone_warhammer2"
+    },
+    "gmdl_96f9d43": {
+      "textures": "textures/minecraft/item/weapons/wooden_dagger"
+    },
+    "gmdl_29f48c7": {
+      "textures": "textures/minecraft/item/weapons/iron_dagger"
+    },
+    "gmdl_4df9841": {
+      "textures": "textures/minecraft/item/weapons/iron_spear2"
+    },
+    "gmdl_376ae00": {
+      "textures": "textures/minecraft/item/weapons/iron_warhammer2"
+    },
+    "gmdl_fec4170": {
+      "textures": "textures/minecraft/item/weapons/stone_spear2"
+    },
+    "gmdl_5754f41": {
+      "textures": "textures/minecraft/item/weapons/golden_mace"
+    },
+    "gmdl_0dab3a0": {
+      "textures": "textures/minecraft/item/weapons/golden_warhammer2"
+    },
+    "gmdl_6199ab3": {
+      "textures": "textures/minecraft/item/weapons/iron_mace"
+    },
+    "gmdl_02989d0": {
+      "textures": "textures/minecraft/item/weapons/golden_dagger"
+    },
+    "gmdl_3190b3f": {
+      "textures": "textures/minecraft/item/weapons/golden_spear2"
+    },
+    "gmdl_915bd12": {
+      "textures": "textures/minecraft/item/weapons/diamond_warhammer2"
+    },
+    "gmdl_1036996": {
+      "textures": "textures/minecraft/item/weapons/netherite_dagger"
+    },
+    "gmdl_2dfb7d1": {
+      "textures": "textures/minecraft/item/weapons/diamond_dagger"
+    },
+    "gmdl_1b6ae23": {
+      "textures": "textures/minecraft/item/weapons/diamond_mace"
+    },
+    "gmdl_30b3d0a": {
+      "textures": "textures/minecraft/item/weapons/diamond_spear2"
+    },
+    "gmdl_55e37e1": {
+      "textures": "textures/minecraft/item/tools/netherite_jewelry_hammer"
+    },
+    "gmdl_8d62b5d": {
+      "textures": "textures/minecraft/item/weapons/netherite_warhammer2"
+    },
+    "gmdl_da9e8d8": {
+      "textures": "textures/minecraft/item/weapons/netherite_mace"
+    },
+    "gmdl_6ca6e54": {
+      "textures": "textures/minecraft/item/weapons/netherite_spear2"
+    },
+	"gmdl_9873628":{
+	  "textures": "textures/minecraft/item/weapons/stone_mace"
+	}
+  }
+}

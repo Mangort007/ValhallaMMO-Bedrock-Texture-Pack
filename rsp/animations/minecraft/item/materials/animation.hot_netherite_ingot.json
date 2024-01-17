@@ -1,0 +1,45 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hot_netherite_ingot.thirdperson_main_hand": {
+			"loop": true,
+			"bones": {
+				"hot_netherite_ingot": {
+					"rotation": [75, -0.6, 12.5],
+					"position": [-3, 14, 6],
+					"scale": 1
+				}
+			}
+		},
+		"animation.hot_netherite_ingot.thirdperson_off_hand": {
+			"loop": true,
+			"bones": {
+				"hot_netherite_ingot": {
+					"rotation": [75, -0.6, 12.5],
+					"position": [-4, 14, 6],
+					"scale": 1
+				}
+			}
+		},
+		"animation.hot_netherite_ingot.firstperson_main_hand": {
+			"loop": true,
+			"bones": {
+				"hot_netherite_ingot": {
+					"rotation": [153.47212, -0.52678, 386.93861],
+					"position": [-0.91272, 36.45284, 11.25182],
+					"scale": 2
+				}
+			}
+		},
+		"animation.hot_netherite_ingot.firstperson_off_hand": {
+			"loop": true,
+			"bones": {
+				"hot_netherite_ingot": {
+					"rotation": [-64.02787, -73.26807, 63.03909],
+					"position": [-20, 0, 1],
+					"scale": 2
+				}
+			}
+		}
+	}
+}

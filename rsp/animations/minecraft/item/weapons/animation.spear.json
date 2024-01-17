@@ -1,0 +1,111 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.spear.thirdperson_main_hand": {
+			"loop": true,
+			"bones": {
+				"geyser_custom_x": {
+					"rotation": [-45, 0, 0],
+					"position": [15.5, 0, 1.5],
+					"scale": 2
+				},
+				"geyser_custom_y": {
+					"rotation": [0, 0, 0]
+				},
+				"geyser_custom_z": {
+					"rotation": [0, 0, 90],
+					"position": [0, 0, 0]
+				},
+				"geyser_custom": {
+					"rotation": [90, 0, 0],
+					"position": [0, 13, -3]
+				}
+			}
+		},
+		"animation.spear.thirdperson_off_hand": {
+			"loop": true,
+			"bones": {
+				"geyser_custom_x": {
+					"rotation": [-45, 0, 0],
+					"position": [15.5, 0, 1.5],
+					"scale": 2
+				},
+				"geyser_custom_y": {
+					"rotation": [0, 0, 0]
+				},
+				"geyser_custom_z": {
+					"rotation": [0, 0, 90],
+					"position": [0, 0, 0]
+				},
+				"geyser_custom": {
+					"rotation": [90, 0, 0],
+					"position": [0, 13, -3]
+				}
+			}
+		},
+		"animation.spear.head": {
+			"loop": true,
+			"bones": {
+				"geyser_custom_x": {
+					"rotation": [0, 0, 0],
+					"position": [0, 10, -4.84375],
+					"scale": 1.25
+				},
+				"geyser_custom_y": {
+					"rotation": [0, 135, 0]
+				},
+				"geyser_custom_z": {
+					"rotation": [107.49524, 9.84655, 151.51876],
+					"position": [-6, 1, -5]
+				},
+				"geyser_custom": {
+					"position": [0, 19.9, 0]
+				}
+			}
+		},
+		"animation.spear.firstperson_main_hand": {
+			"loop": true,
+			"bones": {
+				"geyser_custom": {
+					"rotation": [90, 60, -40],
+					"position": [4, 10, 4],
+					"scale": 1.5
+				},
+				"geyser_custom_x": {
+					"rotation": [0, 0, 0],
+					"position": [5.25, -7.25, 1],
+					"scale": 2
+				},
+				"geyser_custom_y": {
+					"rotation": [0, 0, 0]
+				},
+				"geyser_custom_z": {
+					"rotation": [0, 0, 90],
+					"position": [0, 0, 0]
+				}
+			}
+		},
+		"animation.spear.firstperson_off_hand": {
+			"loop": true,
+			"bones": {
+				"geyser_custom": {
+					"rotation": [90, 60, -40],
+					"position": [4, 10, 4],
+					"scale": 1.5
+				},
+				"geyser_custom_x": {
+					"rotation": [-90, 0, 0],
+					"position": [-5.25, -7.25, 1],
+					"scale": 2
+				},
+				"geyser_custom_y": {
+					"rotation": [0, 0, 0]
+				},
+				"geyser_custom_z": {
+					"rotation": [-594.14958, 32.2207, -246.37054],
+					"position": [-10.6, 12.88558, -15.82683]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+    "format_version":2,
+    "header":{
+        "description":"Adds 3D items for use with a Geyser proxy",
+        "name":"ValhallaMMO Texture Pack",
+        "uuid":"0bc876f9-4fab-4b3c-a3ec-ab87b5fd3913",
+        "version":[1,0,0],
+        "min_engine_version":[1,18,3]
+    },
+    "modules":[
+        {"description":"Adds 3D items for use with a Geyser proxy",
+        "type":"resources",
+        "uuid":"d3bfbe88-92d9-4026-8070-d33b2e0d9073",
+        "version":[1,0,0]
+        }
+    ]
+}

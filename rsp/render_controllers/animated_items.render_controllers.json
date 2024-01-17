@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+        "controller.render.hot_gold_ingot": {
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "variable.animated_item = query.life_time * 5.0; return array.animated_model_item[variable.animated_item];",
+			"textures": [
+				"variable.animated_item = query.life_time * 5.0; return array.animated_texture_item[variable.animated_item];"
+			],
+			"arrays": {
+				"textures": {
+					"array.animated_texture_item": [
+						"Texture.hot_gold_ingot",
+						"Texture.hot_gold_ingot2",
+						"Texture.hot_gold_ingot3",
+						"Texture.hot_gold_ingot4",
+						"Texture.hot_gold_ingot5",
+						"Texture.hot_gold_ingot6",
+						"Texture.hot_gold_ingot7",
+						"Texture.hot_gold_ingot8"
+					]
+				},
+				"geometries": {
+					"array.animated_model_item": [
+						"Geometry.hot_gold_ingot",
+						"Geometry.hot_gold_ingot2",
+						"Geometry.hot_gold_ingot3",
+						"Geometry.hot_gold_ingot4",
+						"Geometry.hot_gold_ingot5",
+						"Geometry.hot_gold_ingot6",
+						"Geometry.hot_gold_ingot7",
+						"Geometry.hot_gold_ingot8"
+					]
+				}
+			}
+		}
+	}
+}

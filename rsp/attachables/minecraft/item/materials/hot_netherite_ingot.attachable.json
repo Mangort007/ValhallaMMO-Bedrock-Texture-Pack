@@ -1,0 +1,50 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "geyser_custom:gmdl_9b1bd82",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"geometry": {
+				"hot_netherite_ingot": "geometry.hot_netherite_ingot",
+				"hot_netherite_ingot2": "geometry.hot_netherite_ingot2",
+				"hot_netherite_ingot3": "geometry.hot_netherite_ingot3",
+				"hot_netherite_ingot4": "geometry.hot_netherite_ingot4",
+				"hot_netherite_ingot5": "geometry.hot_netherite_ingot5",
+				"hot_netherite_ingot6": "geometry.hot_netherite_ingot6"
+			},
+			"textures": {
+				"hot_netherite_ingot": "textures/minecraft/item/materials/hot_netherite_ingot",
+				"hot_netherite_ingot2": "textures/minecraft/item/materials/hot_netherite_ingot2",
+				"hot_netherite_ingot3": "textures/minecraft/item/materials/hot_netherite_ingot3",
+				"hot_netherite_ingot4": "textures/minecraft/item/materials/hot_netherite_ingot4",
+				"hot_netherite_ingot5": "textures/minecraft/item/materials/hot_netherite_ingot5",
+				"hot_netherite_ingot6": "textures/minecraft/item/materials/hot_netherite_ingot6"
+			},
+			"render_controllers": [
+				"controller.render.hot_netherite_ingot"
+			],
+			"scripts":{
+                "pre_animation":[
+                    "v.main_hand = c.item_slot == 'main_hand';",
+                    "v.off_hand = c.item_slot == 'off_hand';"
+                ],
+            "animate":[
+                {"thirdperson_main_hand":"v.main_hand && !c.is_first_person"},
+                {"thirdperson_off_hand":"v.off_hand && !c.is_first_person"},
+                {"firstperson_main_hand":"v.main_hand && c.is_first_person"},
+                {"firstperson_off_hand":"v.off_hand && c.is_first_person"},
+                {"firstperson_head":"c.is_first_person && v.head"}
+            ]
+            },
+            "animations":{
+                "thirdperson_main_hand":"animation.hot_netherite_ingot.thirdperson_main_hand",
+                "thirdperson_off_hand":"animation.hot_netherite_ingot.thirdperson_off_hand",
+                "firstperson_main_hand":"animation.hot_netherite_ingot.firstperson_main_hand",
+                "firstperson_off_hand":"animation.hot_netherite_ingot.firstperson_off_hand",
+                "firstperson_head":"animation.geyser_custom.disable"
+            }
+		}
+	}
+}

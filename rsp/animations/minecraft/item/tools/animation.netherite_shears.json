@@ -1,0 +1,110 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.geyser_custom.geo_85e2e1d.thirdperson_main_hand": {
+			"loop": true,
+			"bones": {
+				"geyser_custom_x": {
+					"rotation": [-45, 0, 0],
+					"position": [6.5, 4, 0.5],
+					"scale": [0.85, 0.85, 0.85]
+				},
+				"geyser_custom_y": {
+					"rotation": [0, 0, 0]
+				},
+				"geyser_custom_z": {
+					"rotation": [0, 0, 90]
+				},
+				"geyser_custom": {
+					"rotation": [90, 0, 0],
+					"position": [0, 13, -3]
+				}
+			}
+		},
+		"animation.geyser_custom.geo_85e2e1d.thirdperson_off_hand": {
+			"loop": true,
+			"bones": {
+				"geyser_custom_x": {
+					"rotation": [-45, 0, 0],
+					"position": [7.5, 4, 0.5],
+					"scale": 0.85
+				},
+				"geyser_custom_y": {
+					"rotation": [0, 0, 0]
+				},
+				"geyser_custom_z": {
+					"rotation": [0, 0, 90],
+					"position": [-1, 0, 0]
+				},
+				"geyser_custom": {
+					"rotation": [90, 0, 0],
+					"position": [0, 13, -3]
+				}
+			}
+		},
+		"animation.geyser_custom.geo_85e2e1d.head": {
+			"loop": true,
+			"bones": {
+				"geyser_custom_x": {
+					"rotation": [-90, 0, 0],
+					"position": [0, 4.375, -4.6875],
+					"scale": 0.625
+				},
+				"geyser_custom_y": {
+					"rotation": [0, -135, 0]
+				},
+				"geyser_custom_z": {
+					"rotation": [0, 0, -180],
+					"position": [-18.49927, -5.36585, 4.35714]
+				},
+				"geyser_custom": {
+					"position": [0, 19.9, 0]
+				}
+			}
+		},
+		"animation.geyser_custom.geo_85e2e1d.firstperson_main_hand": {
+			"loop": true,
+			"bones": {
+				"geyser_custom": {
+					"rotation": [90, 60, -40],
+					"position": [4, 10, 4],
+					"scale": 1.5
+				},
+				"geyser_custom_x": {
+					"rotation": [-55, 0, 0],
+					"position": [-1.13, 3.2, 2.12],
+					"scale": 0.68
+				},
+				"geyser_custom_y": {
+					"rotation": [0, 0, 0]
+				},
+				"geyser_custom_z": {
+					"rotation": [0, 0, 90],
+					"position": [3.98225, 0.3613, 0.10561]
+				}
+			}
+		},
+		"animation.geyser_custom.geo_85e2e1d.firstperson_off_hand": {
+			"loop": true,
+			"bones": {
+				"geyser_custom": {
+					"rotation": [90, 60, -40],
+					"position": [4, 10, 4],
+					"scale": 1.5
+				},
+				"geyser_custom_x": {
+					"rotation": [-55, 0, 0],
+					"position": [11.3, 3.2, 2.12],
+					"scale": 0.68
+				},
+				"geyser_custom_y": {
+					"rotation": [0, 0, 0]
+				},
+				"geyser_custom_z": {
+					"rotation": [-194.71012, 13.74029, -200.64504],
+					"position": [-39.02205, 28.57433, 11.63189]
+				}
+			}
+		}
+	}
+}

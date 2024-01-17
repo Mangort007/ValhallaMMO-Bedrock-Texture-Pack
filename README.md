@@ -1,5 +1,5 @@
 # ValhallaMMO-Bedrock-Texture-Pack
-
+## Info
 The texture pack is now available for bedrock players of this immersive MMO-inspired plugin, where you can craft new weapons such as a dagger or a spear, use a wide range of amulets and craft tools within its special crafting system!
 
 The texture pack is made up of the following components:
@@ -14,11 +14,13 @@ Things I may add in the future (I don't promise anything!):
 - Customized java texture pack interface for the skills, crafting and amulets menus
 - Add some particles from the plugin to the bedrock texture pack
 
-# How can I install the texture pack?
+## How can I install the texture pack?
 
 First, you will need the GeyserMC plugin, which allows Java and Bedrock players to play on the same server. Without this plugin you will not be able to use the texture pack.
 
 When you have the plugin installed, you will have to enter to the `geyser_mappings` folder, that is inside the `/plugins/Geyser-Spigot` folder, where you will have to upload
 the geyser_mappings file from above. Afterwards, you must download the following texture packs and upload them to the geyser `/packs` folder.
+
+Now download the [GeyserOptinalPack](https://ci.opencollab.dev/job/GeyserMC/job/GeyserOptionalPack/job/master/lastSuccessfulBuild/artifact/GeyserOptionalPack.mcpack) and put it in the `/packs` folder in the GeyserMC plugin
 
 Finally, turn on the server and accept the file download that will appear when you are logging in, and you will be able to enjoy a better ValhallaMMO experience with its special textures!

@@ -1,0 +1,54 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "geyser_custom:gmdl_8ead358",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"geometry": {
+				"hot_iron_ingot": "geometry.hot_iron_ingot",
+				"hot_iron_ingot2": "geometry.hot_iron_ingot2",
+				"hot_iron_ingot3": "geometry.hot_iron_ingot3",
+				"hot_iron_ingot4": "geometry.hot_iron_ingot4",
+				"hot_iron_ingot5": "geometry.hot_iron_ingot5",
+				"hot_iron_ingot6": "geometry.hot_iron_ingot6",
+				"hot_iron_ingot7": "geometry.hot_iron_ingot7",
+				"hot_iron_ingot8": "geometry.hot_iron_ingot8"
+			},
+			"textures": {
+				"hot_iron_ingot": "textures/minecraft/item/materials/hot_iron_ingot",
+				"hot_iron_ingot2": "textures/minecraft/item/materials/hot_iron_ingot2",
+				"hot_iron_ingot3": "textures/minecraft/item/materials/hot_iron_ingot3",
+				"hot_iron_ingot4": "textures/minecraft/item/materials/hot_iron_ingot4",
+				"hot_iron_ingot5": "textures/minecraft/item/materials/hot_iron_ingot5",
+				"hot_iron_ingot6": "textures/minecraft/item/materials/hot_iron_ingot6",
+				"hot_iron_ingot7": "textures/minecraft/item/materials/hot_iron_ingot7",
+				"hot_iron_ingot8": "textures/minecraft/item/materials/hot_iron_ingot8"
+			},
+			"render_controllers": [
+				"controller.render.hot_iron_ingot"
+			],
+			"scripts":{
+                "pre_animation":[
+                    "v.main_hand = c.item_slot == 'main_hand';",
+                    "v.off_hand = c.item_slot == 'off_hand';"
+                ],
+            "animate":[
+                {"thirdperson_main_hand":"v.main_hand && !c.is_first_person"},
+                {"thirdperson_off_hand":"v.off_hand && !c.is_first_person"},
+                {"firstperson_main_hand":"v.main_hand && c.is_first_person"},
+                {"firstperson_off_hand":"v.off_hand && c.is_first_person"},
+                {"firstperson_head":"c.is_first_person && v.head"}
+            ]
+            },
+            "animations":{
+                "thirdperson_main_hand":"animation.hot_iron_ingot.thirdperson_main_hand",
+                "thirdperson_off_hand":"animation.hot_iron_ingot.thirdperson_off_hand",
+                "firstperson_main_hand":"animation.hot_iron_ingot.firstperson_main_hand",
+                "firstperson_off_hand":"animation.hot_iron_ingot.firstperson_off_hand",
+                "firstperson_head":"animation.geyser_custom.disable"
+            }
+		}
+	}
+}

@@ -1,0 +1,111 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.warhammer.thirdperson_main_hand": {
+			"loop": true,
+			"bones": {
+				"geyser_custom_x": {
+					"rotation": [-45, 0, 0],
+					"position": [15.5, 0, 1.5],
+					"scale": 2
+				},
+				"geyser_custom_y": {
+					"rotation": [0, 0, 0]
+				},
+				"geyser_custom_z": {
+					"rotation": [0, 0, 90],
+					"position": [0, 4.6, -4.5]
+				},
+				"geyser_custom": {
+					"rotation": [90, 0, 0],
+					"position": [0, 13, -3]
+				}
+			}
+		},
+		"animation.warhammer.thirdperson_off_hand": {
+			"loop": true,
+			"bones": {
+				"geyser_custom_x": {
+					"rotation": [-45, 0, 0],
+					"position": [15.5, 0, 1.5],
+					"scale": 2
+				},
+				"geyser_custom_y": {
+					"rotation": [0, 0, 0]
+				},
+				"geyser_custom_z": {
+					"rotation": [0, 0, 90],
+					"position": [0, 4.6, -4.5]
+				},
+				"geyser_custom": {
+					"rotation": [90, 0, 0],
+					"position": [0, 13, -3]
+				}
+			}
+		},
+		"animation.warhammer.head": {
+			"loop": true,
+			"bones": {
+				"geyser_custom_x": {
+					"rotation": [0, 0, 0],
+					"position": [0, 10, -4.84375],
+					"scale": 1.25
+				},
+				"geyser_custom_y": {
+					"rotation": [0, 135, 0]
+				},
+				"geyser_custom_z": {
+					"rotation": [45.15976, -4.79013, 85.09266],
+					"position": [4.03638, 2.38014, -0.20626]
+				},
+				"geyser_custom": {
+					"position": [0, 19.9, 0]
+				}
+			}
+		},
+		"animation.warhammer.firstperson_main_hand": {
+			"loop": true,
+			"bones": {
+				"geyser_custom": {
+					"rotation": [90, 60, -40],
+					"position": [4, 10, 4],
+					"scale": 1.7
+				},
+				"geyser_custom_x": {
+					"rotation": [0, 0, 0],
+					"position": [5.25, -7.25, 1],
+					"scale": 1.7
+				},
+				"geyser_custom_y": {
+					"rotation": [0, 0, 0]
+				},
+				"geyser_custom_z": {
+					"rotation": [-3.88323, 44.65574, 83.28152],
+					"position": [2.79547, 7.08407, 0.03522]
+				}
+			}
+		},
+		"animation.warhammer.firstperson_off_hand": {
+			"loop": true,
+			"bones": {
+				"geyser_custom": {
+					"rotation": [90, 60, -40],
+					"position": [4, 10, 4],
+					"scale": 1.7
+				},
+				"geyser_custom_x": {
+					"rotation": [0, 0, 0],
+					"position": [5.25, -7.25, 1],
+					"scale": 1.7
+				},
+				"geyser_custom_y": {
+					"rotation": [0, 0, 0]
+				},
+				"geyser_custom_z": {
+					"rotation": [224.16948, 26.418, 178.40731],
+					"position": [-13.30125, 11.22008, 14.90737]
+				}
+			}
+		}
+	}
+}

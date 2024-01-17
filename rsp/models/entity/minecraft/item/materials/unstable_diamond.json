@@ -1,0 +1,560 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unstable_diamond",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 1,
+				"visible_bounds_height": 1,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.unstable_diamond2",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond2",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.unstable_diamond3",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond3",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.unstable_diamond4",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond4",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.unstable_diamond5",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond5",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.unstable_diamond6",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond6",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.unstable_diamond7",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond7",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.unstable_diamond8",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond8",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond9",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond9",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond10",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond10",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond11",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond11",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond12",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond12",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond13",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond13",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond14",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond14",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond15",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond15",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond16",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond16",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond17",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond17",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond18",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond18",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond19",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond19",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond20",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond20",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond21",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond21",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond22",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond22",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond23",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond23",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		},
+        {
+			"description": {
+				"identifier": "geometry.unstable_diamond24",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "unstable_diamond",
+					"pivot": [0, 8, 0],
+					"binding": "c.item_slot == 'head' ? 'head' : q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "unstable_diamond24",
+							"position": [0, 0, 0],
+							"rotation": [90, 0, -180],
+							"local_pivot": [8, 0.5, 8],
+							"scale": [0.5, 0.5, 0.5]
+						}
+					]
+				}
+			]
+		}    
+	]
+}
