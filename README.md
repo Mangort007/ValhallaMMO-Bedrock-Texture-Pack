@@ -11,7 +11,6 @@ The texture pack is made up of the following components:
 
 Things I may add in the future (I don't promise anything!):
 
-- Customized java texture pack interface for the skills, crafting and amulets menus
 - Add some particles from the plugin to the bedrock texture pack
 
 ## How can I install the texture pack?

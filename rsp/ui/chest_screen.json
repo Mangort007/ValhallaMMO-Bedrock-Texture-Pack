@@ -1,0 +1,516 @@
+{
+  "namespace": "chest",
+  "chest_label": {
+    "type": "label",
+    "offset": [
+      7,
+      -1
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "text": "$container_title",
+    "size": [
+      "90%",
+      "default"
+    ],
+    "color": "$title_text_color",
+    "layer": 2
+  },
+  "chest_grid_item@common.container_item": {
+    "$item_collection_name": "container_items"
+  },
+  "small_chest_grid": {
+    "type": "grid",
+    "size": [
+      162,
+      54
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_dimensions": [
+      9,
+      3
+    ],
+    "grid_item_template": "chest.chest_grid_item",
+    "collection_name": "container_items"
+  },
+  "large_chest_grid": {
+    "type": "grid",
+    "size": [
+      162,
+      108
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_dimensions": [
+      9,
+      6
+    ],
+    "grid_item_template": "chest.chest_grid_item",
+    "collection_name": "container_items"
+  },
+  "menu_fill_template":{
+    "type": "image",
+    "size": [176, 18],
+    "layer": 16,
+    "texture": "textures/ui/menu_fill"
+  },
+  "menu_template": {
+    "type": "image",
+    "size": [176, 137],
+    "offset": [0,-21],
+    "layer": 12,
+    "$menu": "$container_title",
+    "visible": "(not(($menu - $symbol) = $menu)))"
+  },
+  "crafting_gui_0r@menu_template": {
+    "texture": "textures/ui/crafting_gui_0r",
+    "$symbol": "",
+    "controls": [
+      {
+        "menu_fill_1@menu_fill_template": {
+          "offset": [0,5]
+        }
+      },
+      {
+        "menu_fill_2@menu_fill_template": {
+          "offset": [0, -13]
+        }
+      }
+    ]
+  },
+  "crafting_gui_1r@menu_template": {
+    "texture": "textures/ui/crafting_gui_1r",
+    "$symbol": "",
+    "controls": [
+      {
+        "menu_fill@menu_fill_template": {
+          "offset": [0,5]
+        }
+      }
+    ]
+  },
+  "crafting_gui_2r@menu_template": {
+    "texture": "textures/ui/crafting_gui_2r",
+    "$symbol": ""
+  },
+  "crafting_gui_3r@menu_template": {
+    "texture": "textures/ui/crafting_gui_3r",
+    "$symbol": "",
+    "offset": [0, -48],
+    "controls": [
+      {
+        "menu_fill_1@menu_fill_template": {
+          "offset": [0,40]
+        }
+      },
+      {
+        "menu_fill_2@menu_fill_template": {
+          "offset": [0,58]
+        }
+      }
+    ]
+  },
+  "crafting_gui_4r@menu_template": {
+    "texture": "textures/ui/crafting_gui_4r",
+    "$symbol": "",
+    "offset": [0,-48],
+    "controls": [
+      {
+        "menu_fill_1@menu_fill_template": {
+          "offset": [0,58]
+        }
+      }
+    ]
+  },
+  "crafting_gui_5r@menu_template": {
+    "texture": "textures/ui/crafting_gui_5r",
+    "$symbol": "",
+    "offset": [0,-48]
+  },
+  "skills_gui@menu_template": {
+    "texture": "textures/ui/skills_gui",
+    "offset": [0,-48],
+    "$symbol": ""
+  },
+  "tinkering_gui_0r@menu_template": {
+    "texture": "textures/ui/tinkering_gui_0r",
+    "$symbol": "",
+    "controls": [
+      {
+        "menu_fill_1@menu_fill_template": {
+          "offset": [0,5]
+        }
+      },
+      {
+        "menu_fill_2@menu_fill_template": {
+          "offset": [0,-13]
+        }
+      }
+    ]
+  },
+  "tinkering_gui_1r@menu_template": {
+    "texture": "textures/ui/tinkering_gui_1r",
+    "$symbol": "",
+    "controls": [
+      {
+        "menu_fill_1@menu_fill_template": {
+          "offset": [0,5]
+        }
+      }
+    ]
+  },
+  "tinkering_gui_2r@menu_template": {
+    "texture": "textures/ui/tinkering_gui_2r",
+    "$symbol": ""
+  },
+  "tinkering_gui_3r@menu_template": {
+    "texture": "textures/ui/tinkering_gui_3r",
+    "$symbol": "",
+    "offset": [0,-48],
+    "controls": [
+      {
+        "menu_fill_1@menu_fill_template": {
+          "offset": [0,40]
+        }
+      },
+      {
+        "menu_fill_2@menu_fill_template": {
+          "offset": [0,58]
+        }
+      }
+    ]
+  },
+  "tinkering_gui_4r@menu_template": {
+    "texture": "textures/ui/tinkering_gui_4r",
+    "$symbol": "",
+    "offset": [0,-48],
+    "controls": [
+      {
+        "menu_fill_2@menu_fill_template": {
+          "offset": [0,58]
+        }
+      }
+    ]
+  },
+  "tinkering_gui_5r@menu_template": {
+    "texture": "textures/ui/tinkering_gui_5r",
+    "$symbol": "",
+    "offset": [0,-48]
+  },
+  "trinkets_gui_0r@menu_template": {
+    "texture": "textures/ui/trinkets_gui_0r",
+    "$symbol": "",
+    "controls": [
+      {
+        "menu_fill_1@menu_fill_template": {
+          "offset": [0,5]
+        }
+      },
+      {
+        "menu_fill_2@menu_fill_template": {
+          "offset": [0, -13]
+        }
+      }
+    ]
+  },
+  "small_chest_panel_top_half": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "50%"
+    ],
+    "offset": [
+      0,
+      12
+    ],
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "controls": [
+      {
+        "chest_label@chest.chest_label": {}
+      },
+      {
+        "small_chest_grid@chest.small_chest_grid": {
+          "offset": [
+            7,
+            9
+          ]
+        }
+      }
+    ]
+  },
+  "large_chest_panel_top_half": {
+    "type": "panel",
+    "size": [
+      "100%",
+      132
+    ],
+    "offset": [
+      0,
+      11
+    ],
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "controls": [
+      {
+        "chest_label@chest.chest_label": {}
+      },
+      {
+        "large_chest_grid@chest.large_chest_grid": {
+          "offset": [
+            7,
+            10
+          ]
+        }
+      }
+    ]
+  },
+  "small_chest_panel": {
+    "type": "panel",
+    "controls": [
+      {
+        "container_gamepad_helpers@common.container_gamepad_helpers": {}
+      },
+      {
+        "flying_item_renderer@common.flying_item_renderer": {
+          "layer": 14
+        }
+      },
+      {
+        "trinkets_gui_0r@trinkets_gui_0r": {}
+      },
+      {
+        "tinkering_gui_2r@tinkering_gui_2r": {}
+      },
+      {
+        "tinkering_gui_1r@tinkering_gui_1r": {}
+      },
+      {
+        "tinkering_gui_0r@tinkering_gui_0r": {}
+      },
+      {
+        "crafting_gui_2r@crafting_gui_2r": {}
+      },
+      {
+        "crafting_gui_1r@crafting_gui_1r":{}
+      },
+      {
+        "crafting_gui_0r@crafting_gui_0r": {}
+      },
+      {
+        "selected_item_details_factory@common.selected_item_details_factory": {}
+      },
+      {
+        "item_lock_notification_factory@common.item_lock_notification_factory": {}
+      },
+      {
+        "root_panel@common.root_panel": {
+          "layer": 1,
+          "controls": [
+            {
+              "common_panel@common.common_panel": {}
+            },
+            {
+              "chest_panel": {
+                "type": "panel",
+                "controls": [
+                  {
+                    "small_chest_panel_top_half@chest.small_chest_panel_top_half": {}
+                  },
+                  {
+                    "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {
+                    }
+                  },
+                  {
+                    "hotbar_grid@common.hotbar_grid_template": {}
+                  },
+                  {
+                    "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+                  }
+                ]
+              }
+            },
+            {
+              "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+            },
+            {
+              "gamepad_cursor@common.gamepad_cursor_button": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "selected_item_details@common.selected_item_details": {
+    "offset": [
+      0,
+      0
+    ]
+  },
+  "large_chest_panel": {
+    "type": "panel",
+    "controls": [
+      {
+        "container_gamepad_helpers@common.container_gamepad_helpers": {}
+      },
+      {
+        "flying_item_renderer@common.flying_item_renderer": {
+          "layer": 14
+        }
+      },
+      {
+        "tinkering_gui_3r@tinkering_gui_3r": {}
+      },
+      {
+        "tinkering_gui_4r@tinkering_gui_4r": {}
+      },
+      {
+        "tinkering_gui_5r@tinkering_gui_5r": {}
+      },
+      {
+        "crafting_gui_3r@crafting_gui_3r": {}
+      },
+      {
+        "crafting_gui_4r@crafting_gui_4r":{}
+      },
+      {
+        "crafting_gui_5r@crafting_gui_5r": {}
+      },
+      {
+        "skills_gui@skills_gui": {}
+      },
+      {
+        "selected_item_details_factory@common.selected_item_details_factory": {
+          "control_name": "@chest.selected_item_details"
+        }
+      },
+      {
+        "item_lock_notification_factory@common.item_lock_notification_factory": {
+          "control_name": "@common.item_lock_notification"
+        }
+      },
+      
+      {
+        "root_panel@common.root_panel": {
+          "size": [
+            176,
+            220
+          ],
+          "layer": 1,
+          "controls": [
+            {
+              "common_panel@common.common_panel": {}
+            },
+            {
+              "chest_panel": {
+                "type": "panel",
+                "layer": 5,
+                "controls": [
+                  {
+                    "large_chest_panel_top_half@chest.large_chest_panel_top_half": {}
+                  },
+                  {
+                    "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                  },
+                  {
+                    "hotbar_grid@common.hotbar_grid_template": {}
+                  },
+                  {
+                    "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+                  }
+                ]
+              }
+            },
+            {
+              "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+            },
+            {
+              "gamepad_cursor@common.gamepad_cursor_button": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ender_chest_panel@chest.small_chest_panel": {},
+  "shulker_box_panel@chest.small_chest_panel": {},
+  "barrel_panel@chest.small_chest_panel": {},
+  "small_chest_screen@common.inventory_screen_common": {
+    "$close_on_player_hurt|default": true,
+        "$show_background": false,
+    "close_on_player_hurt": "$close_on_player_hurt",
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_content": "chest.small_chest_panel",
+        "$screen_bg_content": "common.screen_background"
+      },
+      {
+        "requires": "$pocket_screen",
+        "$screen_content": "chest.small_chest_panel",
+        "$screen_bg_content": "common.screen_background"
+      }
+    ]
+  },
+  "large_chest_screen@common.inventory_screen_common": {
+    "$close_on_player_hurt|default": true,
+        "$show_background": false,
+    "close_on_player_hurt": "$close_on_player_hurt",
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_content": "chest.large_chest_panel",
+        "$screen_bg_content": "common.screen_background"
+      },
+      {
+        "requires": "$pocket_screen",
+        "$screen_content": "chest.large_chest_panel",
+        "$screen_bg_content": "common.screen_background"
+      }
+    ]
+  },
+  "ender_chest_screen@common.inventory_screen_common": {
+    "$close_on_player_hurt|default": true,
+    "close_on_player_hurt": "$close_on_player_hurt",
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_content": "chest.ender_chest_panel",
+        "$screen_bg_content": "common.screen_background"
+      },
+      {
+        "requires": "$pocket_screen",
+        "$screen_content": "pocket_containers.ender_chest_panel"
+      }
+    ]
+  },
+  "shulker_box_screen@chest.small_chest_screen": {
+    "$close_on_player_hurt": true,
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_content": "chest.shulker_box_panel",
+        "$screen_bg_content": "common.screen_background"
+      },
+      {
+        "requires": "$pocket_screen",
+        "$screen_content": "pocket_containers.shulker_box_panel"
+      }
+    ]
+  },
+  "barrel_screen@chest.small_chest_screen": {
+    "$close_on_player_hurt": true,
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_content": "chest.barrel_panel",
+        "$screen_bg_content": "common.screen_background"
+      },
+      {
+        "requires": "$pocket_screen",
+        "$screen_content": "pocket_containers.barrel_panel"
+      }
+    ]
+  }
+}
