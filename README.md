@@ -7,7 +7,7 @@ The texture pack is made up of the following components:
 - All the textures of the plugin's item icons
 - All new weapons plugin with 3D textures
 - Animated textures for crafting materials (such as unstable diamond, etc.)
-- Custom gui from the orginal java texture pack
+- Custom gui from the original java texture pack
 - All weapons and items in the texture pack are compatible with the secondary hand in bedrock!
 
 Things I may add in the future (I don't promise anything!):
