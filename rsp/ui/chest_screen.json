@@ -59,7 +59,7 @@
     "type": "image",
     "size": [176, 137],
     "offset": [0,-21],
-    "layer": 12,
+    "layer": 8,
     "$menu": "$container_title",
     "visible": "(not(($menu - $symbol) = $menu)))"
   },
