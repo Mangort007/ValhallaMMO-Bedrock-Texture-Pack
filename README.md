@@ -21,6 +21,6 @@ First, you will need the GeyserMC plugin, which allows Java and Bedrock players 
 When you have the plugin installed, you will have to enter to the `geyser_mappings` folder, that is inside the `/plugins/Geyser-Spigot` folder, where you will have to upload
 the geyser_mappings file from above. Afterwards, you must download the following texture packs and upload them to the geyser `/packs` folder.
 
-Now download the [GeyserOptinalPack](https://ci.opencollab.dev/job/GeyserMC/job/GeyserOptionalPack/job/master/lastSuccessfulBuild/artifact/GeyserOptionalPack.mcpack) and put it in the `/packs` folder in the GeyserMC plugin
+Now download the [GeyserOptinalPack](https://geysermc.org/download?project=other-projects&geyseroptionalpack=expanded) and put it in the `/packs` folder in the GeyserMC plugin
 
 Finally, turn on the server and accept the file download that will appear when you are logging in, and you will be able to enjoy a better ValhallaMMO experience with its special textures!
